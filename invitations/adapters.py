@@ -11,7 +11,7 @@ from .utils import import_attribute
 try:
     from django.utils.encoding import force_text
 except ImportError:
-    from django.utils.encoding import force_unicode as force_text
+    from django.utils.encoding import force_str as force_text
 
 
 # Code credits here to django-allauth
